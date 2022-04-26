@@ -19,3 +19,6 @@
 - telegram setting can be configured in `config.ini` file and it consists of two types which are `orderbook_high_low` & `trade_price`
 
 - If you want send telegram message, then call send_telegram()
+
+
+Hid all exchanges baseapi except bithumb for personal reason

@@ -1,0 +1,3 @@
+[telegram]
+orderbook_high_low = 120
+trade_price = 10
