@@ -4,7 +4,7 @@
 1. It spots the arbitrage based on "orderbook's highest and lowest bid-ask difference" between different exchanges
 2. It spots the arbitrage based on "latest trade price difference" between different exchanges
 
-- Added 5 exchange baseapi, subscriber (orderbook price, trade price)
+- Added 5 exchange public & private baseapi, websocket subscriber (orderbook price, trade price)
 
 - MultiExchangeCrawler thread for updating `ArbitrageByOrderBookHighLowPrice` & `ArbitrageByLastTradePrice` & `self.exchange_rates_dict` and sending those to pyqt thread through `arbitrage_queue`
 
